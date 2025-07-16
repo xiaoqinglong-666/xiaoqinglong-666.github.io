@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Auto Text Effect</title>
+    <link rel="stylesheet" href="css/blog.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <title>My Blog</title>
   </head>
   <body>
-    <h1 id="text">Starting...</h1>
-
-    <div>
-      <label for="speed">Speed:</label>
-      <input type="number" name="speed" id="speed" value="1" min="1" max="10" step="1">
+    <div class="container">
+      <h1>My Blog</h1>
+      <ul class="post-list"></ul>
+      <div class="post-content"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/blog.js"></script>
   </body>
 </html>
